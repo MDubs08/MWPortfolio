@@ -192,10 +192,17 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Pictures\Backgrounds\SpaceSection1.jpg" />
+    <Content Include="Content\Pictures\Work\Bohotronics.png" />
+    <Content Include="Content\Pictures\Work\Ricoh.png" />
+    <Content Include="Content\Pictures\Work\SoerensFord.jpg" />
+    <Content Include="Content\Pictures\Work\TCC.png" />
+    <Content Include="Content\Pictures\Work\VZW.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\APIs.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -245,6 +252,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\iTunes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

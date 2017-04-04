@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <div class="jumbotron-fluid">
+        <h1 id="header">iTunes Search</h1>
+        <br>
+        <div class="row">
+            <!--<div id="player"></div>-->
+            <div class="col-sm-12" id="searchType">
+                <label for="searchTerm">Search Here:</label>
+                <input class="form-control" id="searchInput" placeholder="Search on iTunes... Ex. Imagine Dragons" type="text">
+                <button type="button" id="search" onclick="Search()" class="btn btn-primary btn-md" value="Search">Search</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/Scripts/APIs.js" id="search"></script>
